@@ -1,5 +1,4 @@
 #pragma once
-#include <iostream>
 #include <cmath>
 #include <string>
 
@@ -9,7 +8,7 @@ using namespace std;
 Prototipe for the exercise_1 function
 */
 void exercise_1(string s1);
-    getline (cin, s1);
+    getline(cin, s1);
     for(int i = 0; i <= s1.size(); ++i){
         if (s1[i] == ' '){
             cout << i << endl;
