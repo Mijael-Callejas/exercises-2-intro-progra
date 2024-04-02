@@ -74,8 +74,11 @@ void exercise_12() {
 }
 
 long exercise_13(int n, int k) {
-  // TODO: YOUR CODE HERE
-  return 0;
+    int res;
+    for(int i = 1; i <= n; i++){
+        res += pow(i,k);
+    }
+  return res;
 }
 
 string exercise_14(int n) {
