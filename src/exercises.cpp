@@ -11,7 +11,6 @@ void exercise_1(string s1) {
         }
     }
     cout << s1.size() << endl;
-
 }
 
 void exercise_2(string s1) {
@@ -19,7 +18,22 @@ void exercise_2(string s1) {
 }
 
 void exercise_3(string s1) {
-  // TODO: YOUR CODE HERE
+int nom = 0;
+int no_cake = 0;
+getline(cin, s1);
+for(int i = 2; i < s1.size() || i > 0; i++){
+switch(s1[i]) {
+    case 1: nom++; break;
+    case 0: no_cake++; break;
+}
+if(no_cake >= 1){
+cout << "No cake :(" << endl;
+break;
+}
+else{
+cout << "Om-nom-nom :P" << endl;
+}
+}
 }
 
 void exercise_4(int n) {
