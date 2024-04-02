@@ -74,7 +74,9 @@ void exercise_12() {
 }
 
 long exercise_13(int n, int k) {
-    int res;
+    cin >> n;
+    cin >> k;
+    int res = 0;
     for(int i = 1; i <= n; i++){
         res += pow(i,k);
     }
