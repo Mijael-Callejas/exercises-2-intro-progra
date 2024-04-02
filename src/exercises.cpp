@@ -18,15 +18,9 @@ void exercise_2(string s1) {
 }
 
 void exercise_3(string s1) {
-int nom = 0;
-int no_cake = 0;
 getline(cin, s1, '\n');
 for(int i = 0; i < 10; i++){
-switch(s1[i]) {
-    case 0: no_cake++; break;
-    case 1: nom++; break;
-}
-if(no_cake >= 1){
+if(s1[i] == 0){
 cout << "No cake :(" << endl;
 break;
 }
