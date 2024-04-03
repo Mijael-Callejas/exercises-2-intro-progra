@@ -51,7 +51,7 @@ cin >> n;
 void exercise_7(int n) {
     double res;
     for(int i = 1; i <= n; i++){
-        res += pow(-1, n+1)/i;
+        res += pow((-1),i+1)/i;
     }
     cout << res << endl;
 }
