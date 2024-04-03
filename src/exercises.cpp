@@ -19,8 +19,9 @@ void exercise_2(string s1) {
             cout << "[" << word << "]" << endl;
             word = "";
         }
-    } else {
+        else {
         word += s1[i];
+    } 
     }
 }
 
