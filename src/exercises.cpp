@@ -49,7 +49,11 @@ cin >> n;
 }
 
 void exercise_7(int n) {
-  // TODO: YOUR CODE HERE
+    double res;
+    for(int i = 1; i <= n; i++){
+        res += pow(-1, n+1)/i;
+    }
+    cout << res << endl;
 }
 
 void exercise_8(string s) {
