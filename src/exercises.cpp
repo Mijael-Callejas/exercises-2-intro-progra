@@ -49,6 +49,7 @@ cin >> n;
 }
 
 void exercise_7(int n) {
+    cin >> n;
     double res;
     for(int i = 1; i <= n; i++){
         res += pow(-1,i+1)/i;
