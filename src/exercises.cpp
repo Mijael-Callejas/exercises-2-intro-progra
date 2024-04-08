@@ -64,7 +64,6 @@ void exercise_8(string s) {
 void exercise_9(string s) {
 getline(cin, s, '\n');
 int f = 0; 
-int i =
 for(int i = 0; i < s.size(); i++){
     switch(s[i]){
         case 'f': f++; 
