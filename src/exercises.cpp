@@ -134,9 +134,7 @@ void exercise_15(int decimal) {
 }
 
 void exercise_16(int divident, int divider) {
-    cin >> divident; 
-    cin >> divider;
-    if (divider = 0){
+    if (divider == 0){
     cout << " " << endl;
     } 
     int res = 0;
