@@ -31,7 +31,12 @@ cout << "Om-nom-nom :P" << endl;
 }
 
 void exercise_4(int n) {
-  // TODO: YOUR CODE HERE
+    cin >> n;
+    int res = 1;
+    for(int i = 1; i <= n; i++){
+        res *= i;
+    }
+    cout << res << endl;
 }
 
 void exercise_5(int n, int k) {
