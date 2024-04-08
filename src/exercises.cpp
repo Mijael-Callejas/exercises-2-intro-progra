@@ -50,7 +50,7 @@ cin >> n;
 
 void exercise_7(int n) {
     cin >> n;
-    double res;
+    double res = 0;
     for(int i = 1; i <= n; i++){
         res += pow(-1,i+1)/i;
     }
@@ -62,7 +62,30 @@ void exercise_8(string s) {
 }
 
 void exercise_9(string s) {
-  // TODO: YOUR CODE HERE
+getline(cin, s, '\n');
+int f = 0; 
+for(int i = 0; i < s.size(); i++){
+    switch(s[i]){
+        case 'f': f++; 
+    }
+}
+    if(f <= 0){
+        cout << -2 << endl;
+    }
+    else if(f == 1){
+        cout << -1 << endl;
+    }
+    else if(f == 2){
+        for(int i = 0; i <= s.size(); ++i){
+        if (s[i] == 'f'){
+            f = 0;
+            f++;
+            if(f == 1){
+            cout << i << endl;
+            }
+        }
+    }
+    }
 }
 
 int exercise_10(int a, int b) {
