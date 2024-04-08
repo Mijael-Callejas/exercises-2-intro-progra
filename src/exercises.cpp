@@ -33,10 +33,18 @@ cout << "Om-nom-nom :P" << endl;
 void exercise_4(int n) {
     cin >> n;
     int res = 1;
+    if(n < 0){
+        cout << "El numero es negativo. Intentelo de nuevo" << endl;
+    }
+    else if(n > 14){
+        cout << "El numero es muy grande. Intentelo de nuevo" << endl;
+    }
+    else{
     for(int i = 1; i <= n; i++){
         res *= i;
     }
     cout << res << endl;
+    }
 }
 
 void exercise_5(int n, int k) {
