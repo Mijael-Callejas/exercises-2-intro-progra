@@ -137,12 +137,14 @@ void exercise_16(int divident, int divider) {
     if (divider == 0){
     cout << " " << endl;
     } 
+    else{
     int res = 0;
     int cosi = 0;
     cosi = divident/divider;
     res = divident/divider - cosi;
     cout << cosi << " ";
     cout << res << endl;
+    }
 }
 
 void exercise_17(int n) {
