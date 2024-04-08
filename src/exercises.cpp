@@ -134,7 +134,14 @@ void exercise_15(int decimal) {
 }
 
 void exercise_16(int divident, int divider) {
-  // TODO: YOUR CODE HERE
+    int divident = 15; 
+    int divider = 5; 
+    int res = 0;
+    int cosi = 0;
+    cosi = divident/divider;
+    res = divident/divider - cosi;
+    cout << cosi << endl;
+    cout << res << endl;
 }
 
 void exercise_17(int n) {
