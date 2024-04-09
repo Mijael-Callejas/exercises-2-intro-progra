@@ -141,7 +141,7 @@ void exercise_16(int divident, int divider) {
     int res = 0;
     int cosi = 0;
     cosi = divident/divider;
-    res = divident/divider - cosi;
+    res = divident%divider;
     cout << cosi << " ";
     cout << res << endl;
     }
