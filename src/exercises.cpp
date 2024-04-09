@@ -130,8 +130,8 @@ string exercise_14(int n) {
 }
 
 void exercise_15(int decimal) {
-    int cosiente = n/2;
-    int residuo = n%2;
+    int cosiente = decimal/2;
+    int residuo = decimal%2;
     string res;
     res += residuo;
     while(cosiente > 0){
