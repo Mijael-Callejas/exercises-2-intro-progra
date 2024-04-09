@@ -130,7 +130,17 @@ string exercise_14(int n) {
 }
 
 void exercise_15(int decimal) {
-  // TODO: YOUR CODE HERE
+    cin >> n;
+    int cosiente = n/2;
+    int residuo = n%2;
+    string res;
+    res += residuo;
+    while(cosiente > 0){
+    cosiente = cosiente/2;
+    residuo = cosiente%2;
+    res += residuo;
+    }
+    cout << res << endl;
 }
 
 void exercise_16(int divident, int divider) {
