@@ -130,7 +130,6 @@ string exercise_14(int n) {
 }
 
 void exercise_15(int decimal) {
-    cin >> n;
     int cosiente = n/2;
     int residuo = n%2;
     string res;
