@@ -19,7 +19,7 @@ void exercise_2(string s1) {
             cout << "]" << endl << "[";
         }
     }
-    cout << s1.size() << endl;
+    cout << s1[i] << endl;
 }
 void exercise_3(string s1) {
 getline(cin, s1, '\n');
