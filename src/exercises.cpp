@@ -14,9 +14,13 @@ void exercise_1(string s1) {
 }
 
 void exercise_2(string s1) {
-  // TODO: YOUR CODE HERE
+   for(int i = 0; i <= s1.size(); ++i){
+        if (s1[i] == ' '){
+            cout << ] << endl >> [;
+        }
+    }
+    cout << s1.size() << endl;
 }
-
 void exercise_3(string s1) {
 getline(cin, s1, '\n');
 for(int i = 0; i < 10; i++){
