@@ -16,7 +16,7 @@ void exercise_1(string s1) {
 void exercise_2(string s1) {
    for(int i = 0; i <= s1.size(); ++i){
         if (s1[i] == ' '){
-            cout << ] << endl >> [;
+            cout << "]" << endl >> "[";
         }
     }
     cout << s1.size() << endl;
