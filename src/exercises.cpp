@@ -77,6 +77,7 @@ void exercise_8(string s) {
 void exercise_9(string s) {
 getline(cin, s, '\n');
 int f = 0; 
+int count = 0;
 for(int i = 0; i < s.size(); i++){
     switch(s[i]){
         case 'f': f++; 
@@ -91,13 +92,11 @@ for(int i = 0; i < s.size(); i++){
     else if(f == 2){
         for(int i = 0; i <= s.size(); ++i){
         if (s[i] == 'f'){
-            f = 0;
-            f++;
-            if(f == 1){
-            cout << i << endl;
+            count = i;
             }
         }
     }
+    cout << count << endl;
     }
 }
 
