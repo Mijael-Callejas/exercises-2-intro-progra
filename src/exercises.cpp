@@ -97,7 +97,6 @@ for(int i = 0; i < s.size(); i++){
         }
     }
     cout << count << endl;
-    }
 }
 
 int exercise_10(int a, int b) {
