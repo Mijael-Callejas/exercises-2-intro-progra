@@ -83,11 +83,11 @@ for(int i = 1; i < s.size(); i++){
         case 'f': f++; 
     }
 }
-    if(f == 0){
-        cout << -2 << endl;
+    if(f <= 0){
+        cout << "-2" << endl;
     }
     else if(f == 1){
-        cout << -1 << endl;
+        cout << "-1" << endl;
     }
     else if(f == 2){
         for(int i = 0; i <= s.size(); ++i){
@@ -95,9 +95,8 @@ for(int i = 1; i < s.size(); i++){
             count = i;
             }
         }
-    cout << count << endl;
-    }
-    
+            cout << count << endl;
+    } 
 }
 
 int exercise_10(int a, int b) {
