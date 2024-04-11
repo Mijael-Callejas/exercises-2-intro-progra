@@ -75,7 +75,6 @@ void exercise_8(string s) {
 }
 
 void exercise_9(string s) {
-getline(cin, s, '\n');
 int f = 0; 
 int count = 0;
 for(int i = 1; i < s.size(); i++){
