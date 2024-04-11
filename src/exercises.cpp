@@ -18,7 +18,6 @@ void exercise_2(string s1) {
 }
 
 void exercise_3(string s1) {
-getline(cin, s1, '\n');
 for(int i = 0; i < 10; i++){
 if(s1[i] == 0){
 cout << "No cake :(" << endl;
