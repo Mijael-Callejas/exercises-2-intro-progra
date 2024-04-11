@@ -98,9 +98,34 @@ for(int i = 1; i < s.size(); i++){
 }
 
 int exercise_10(int a, int b) {
-  // TODO: YOUR CODE HERE
-  return 0;
+if (a>0 && b> 0 && a!=b){
+  if(a>b){
+    int aux = a;
+    a=b;
+    b=aux;
+    }
+    int i=a;
+    while (i>=1){
+      if (a % i == 0 && b % i == 0){
+        return i;
+        break;
+        }
+        else{
+          i -= 1;
+    } 
+  }
+ }
+ else{
+     if (a>b){
+        return a; 
+     }
+     else if (a<b){
+        return b; 
+     }
+ }
+  //return i;
 }
+
 
 void exercise_11() {
   // TODO: YOUR CODE HERE
