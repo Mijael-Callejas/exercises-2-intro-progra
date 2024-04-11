@@ -83,7 +83,7 @@ for(int i = 1; i < s.size(); i++){
         case 'f': f++; 
     }
 }
-    if(f <= 0){
+    if(f == 0){
         cout << -2 << endl;
     }
     else if(f == 1){
