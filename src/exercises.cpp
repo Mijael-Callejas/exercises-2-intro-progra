@@ -14,7 +14,19 @@ void exercise_1(string s1) {
 }
 
 void exercise_2(string s1) {
-  // TODO: YOUR CODE HERE
+    char word;
+    cout << "[";
+        for(int i = 0; i <= s1.size(); ++i){
+        if (s1[i] != ' '){
+            word = s1[i];
+            cout << word;
+        }
+        if (s1[i] == ' '){
+            cout << "]" << endl; 
+            cout << "[";
+        }
+    }
+    cout << "]" << endl;
 }
 
 void exercise_3(string s1) {
