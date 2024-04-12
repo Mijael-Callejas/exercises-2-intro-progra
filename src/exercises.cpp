@@ -15,6 +15,10 @@ void exercise_1(string s1) {
 
 void exercise_2(string s1) {
     char word;
+    if (s1 == ""){
+        cout << "";
+    }
+    else{
     cout << "[";
         for(int i = 0; i < s1.size(); ++i){
         if (s1[i] != ' '){
@@ -27,6 +31,7 @@ void exercise_2(string s1) {
         }
     }
     cout << "]" << endl;
+    }
 }
 
 void exercise_3(string s1) {
