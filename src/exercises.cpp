@@ -183,7 +183,14 @@ void exercise_11() {
 }
 
 void exercise_12() {
-  // TODO: YOUR CODE HERE
+    double resa = 1;
+    cout << "U" << resa << " = " << resa << " V" << resa << " = " << resa << endl;
+    for(int i = 1; i < 10; i++){
+        resa = resa / (i + 1);
+        int n;
+        n = i + 1;
+        cout << "U" << n << " = " << resa << " V" << n << " = " << "1" << endl;
+    }
 }
 
 long exercise_13(int n, int k) {
