@@ -35,14 +35,15 @@ void exercise_2(string s1) {
 }
 
 void exercise_3(string s1) {
-for(int i = 0; i < 10; i++){
-if(s1[i] == 0){
-cout << "No cake :(" << endl;
-break;
-}
-else{
-cout << "Om-nom-nom :P" << endl;
-}
+for(int i = 0; i < s1.size(); i++){
+    char word = s1[i];
+    if (word == '0'){
+        cout << "No cake :(" << endl;
+        break;
+    }
+    else if(word == '1'){ 
+        cout << "Om-nom-nom :P" << endl;
+    }
 }
 }
 
