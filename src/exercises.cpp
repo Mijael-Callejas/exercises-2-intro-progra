@@ -171,7 +171,15 @@ if (a>0 && b> 0 && a!=b){
 
 
 void exercise_11() {
-  // TODO: YOUR CODE HERE
+    double resa = 1;
+    cout << "+U" << "0" << " = " << resa << endl;
+    cout << "+U" << resa << " = " << resa << endl;
+    for(int i = 1; i < 10; i++){
+        resa = resa / (i + 1);
+        int n;
+        n = i + 1;
+        cout << "+U" << n << " = " << resa << endl;
+    }
 }
 
 void exercise_12() {
