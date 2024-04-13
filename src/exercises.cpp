@@ -91,7 +91,30 @@ void exercise_7(int n) {
 }
 
 void exercise_8(string s) {
-  // TODO: YOUR CODE HERE
+  string vacio = "";
+    if( s == vacio){
+        cout << "YES" << endl;
+      }
+  string sinespacio;
+   for(int i=0; i< s.length(); i++){
+        if( s[i] != ' '){
+            sinespacio += s[i];
+        }
+      } 
+      int a=0;
+      int b=sinespacio.length()-1;
+    for (int i=0; 1 < sinespacio.length(); i++){
+        if(sinespacio[a]==sinespacio[b]){
+           a++;
+           b--;
+           cout<<"YES"<<endl;
+           break;
+        }
+        else{
+          cout<<"NO"<<endl;
+          break;
+    }
+    }
 }
 
 void exercise_9(string s) {
