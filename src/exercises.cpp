@@ -209,7 +209,22 @@ void exercise_16(int divident, int divider) {
 }
 
 void exercise_17(int n) {
-  // TODO: YOUR CODE HERE
+    cin >> n;
+    for(int i = 2; i <= n * 2; i++){
+        int c = 2;
+        int primo = 1;
+        while(primo == 1 && c < i){
+            if (i % c == 0){
+                primo = 0;
+            }
+            else{
+                c++;
+            }
+        }
+    if(primo == 1){
+        cout << i << " ";
+    }
+    }
 }
 
 void exercise_18_19(int debut, int fin) {
