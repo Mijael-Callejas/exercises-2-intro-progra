@@ -167,7 +167,6 @@ if (a>0 && b> 0 && a!=b){
         return b; 
      }
  }
-  //return i;
 }
 
 
@@ -205,16 +204,15 @@ string exercise_14(int n) {
 }
 
 void exercise_15(int decimal) {
-    int cosiente = decimal/2;
-    int residuo = decimal%2;
-    string res;
-    res += residuo;
-    while(cosiente > 0){
-    cosiente = cosiente/2;
-    residuo = cosiente%2;
-    res += residuo;
+    cin >> decimal;
+    int bin = 0;
+    int res;
+    for(int i = 0; decimal > 0; i ++){
+        res = decimal % 2;
+        decimal = decimal / 2;
+        bin = bin + res * pow(10,i);
     }
-    cout << res << endl;
+    cout << bin << endl;
 }
 
 void exercise_16(int divident, int divider) {
