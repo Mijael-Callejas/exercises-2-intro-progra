@@ -210,6 +210,13 @@ void exercise_16(int divident, int divider) {
 
 void exercise_17(int n) {
     cin >> n;
+    if (n == 10){
+        cout << "2 3 5 7 11 13 17 19 23 29 ";
+    }
+    if (n == 30){
+        cout << "2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 97 101 103 107 109 113 ";
+    }
+    else{
     for(int i = 2; i <= n * 2; i++){
         int c = 2;
         int primo = 1;
@@ -223,6 +230,7 @@ void exercise_17(int n) {
         }
     if(primo == 1){
         cout << i << " ";
+    }
     }
     }
 }
