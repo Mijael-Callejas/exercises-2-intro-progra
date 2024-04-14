@@ -111,11 +111,17 @@ void exercise_5(int n, int k) {
     }
     for (int days = espacios; days <= k; ++days) {
     dsem ++;
-    if (days < 10){
+    if (days < 10 && dsem < 7){
     cout << " " << days << " ";
     }
-    else{
+    else if (days < 10 && dsem == 7){
+    cout << " " << days;
+    }
+    else if(days > 10 && dsem < 7){
     cout << days << " ";
+    }
+    else if(days > 10 && dsem == 7){
+    cout << days;
     }
     if (dsem == 7){
         cout << endl;
