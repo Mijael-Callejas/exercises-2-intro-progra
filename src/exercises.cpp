@@ -270,7 +270,34 @@ void exercise_17(int n) {
     }
     }
 }
-
+void game(int i = 0) {
+    int c = 0;
+            while(i != 0){
+                if(i % 3 == 0){
+                    i += 4;
+                }
+                else if(i % 4 == 0){
+                    i /= 2;
+                }
+                else{
+                    i -= 1;
+                }
+            c ++;
+            }
+            cout << c << endl; 
+}
 void exercise_18_19(int debut, int fin) {
-  // TODO: YOUR CODE HERE
+    int c = 0;
+    if (debut <= 0 || fin <= 0){
+        cout << "El numero debe de ser positivo y mayor a zero" << endl;
+    }
+    else if (debut > fin){
+        cout << "El numero de fin no debe de ser menor al inicial" << endl;
+    }
+    else{
+        for(int i = debut; i <= fin; i++){
+            cout << i << " -> ";
+            game(i);
+        }
+    }
 }
