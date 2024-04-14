@@ -296,7 +296,7 @@ void exercise_18_19(int debut, int fin) {
     }
     else{
         for(int i = debut; i <= fin; i++){
-            cout << i << " -> ";
+            cout << i << " ->";
             game(i);
         }
     }
