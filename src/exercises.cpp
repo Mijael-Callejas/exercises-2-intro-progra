@@ -82,7 +82,7 @@ void exercise_5(int n, int k) {
     }
     }
     else{
-    int dsem;
+    int dsem = 0;
     int espacios;
     if(n == 2){
         cout << "    1  2  3  4  5  6" << endl;
