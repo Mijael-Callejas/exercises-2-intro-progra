@@ -80,6 +80,7 @@ void exercise_5(int n, int k) {
         cout << endl;
     }
     }
+    cout << endl;
     }
     else{
     int dsem = 0;
