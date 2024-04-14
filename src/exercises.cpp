@@ -79,10 +79,10 @@ void exercise_5(int n, int k) {
     cout << " " << days << endl;
     dsem = 0;
     }
-    if(days > 10 && dsem <= 7){
+    if(days >= 10 && dsem <= 7){
     cout << days << " ";
     }
-    else if(days > 10 && dsem == 7){
+    else if(days >= 10 && dsem == 7){
     cout << days << endl;
     dsem = 0;
     }
@@ -124,10 +124,10 @@ void exercise_5(int n, int k) {
     else if (days < 10 && dsem == 7){
     cout << " " << days;
     }
-    if(days > 10 && dsem <= 7){
+    if(days >= 10 && dsem <= 7){
     cout << days << " ";
     }
-    else if(days > 10 && dsem == 7){
+    else if(days >= 10 && dsem == 7){
     cout << days;
     }
     if (dsem == 7){
