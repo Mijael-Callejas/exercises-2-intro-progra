@@ -125,7 +125,7 @@ void exercise_5(int n, int k) {
     cout << " " << days;
     }
     if(days >= 10 && dsem <= 7){
-    cout << " " << days;
+    cout << days;
     }
     else if(days > 10 && dsem == 7){
     cout << days;
