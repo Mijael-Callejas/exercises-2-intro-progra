@@ -111,7 +111,7 @@ void exercise_5(int n, int k) {
     for (int days = espacios; days <= k; ++days) {
     dsem ++;
     if (days < 10){
-    cout << days << "  ";
+    cout << " " << days << " ";
     }
     else{
     cout << days << " ";
