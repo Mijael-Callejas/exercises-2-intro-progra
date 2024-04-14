@@ -288,7 +288,7 @@ void game(int i = 0) {
 }
 void exercise_18_19(int debut, int fin) {
     int c = 0;
-    if (debut <= 0 || fin <= 0){
+    if (debut <= 0){
         cout << "El numero debe de ser positivo y mayor a zero" << endl;
     }
     else if (debut > fin){
