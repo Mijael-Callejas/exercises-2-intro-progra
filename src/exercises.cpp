@@ -68,7 +68,61 @@ void exercise_4(int n) {
 }
 
 void exercise_5(int n, int k) {
-  // TODO: YOUR CODE HERE
+    if(n == 1){
+    for (int days = 1; days <= k; ++days) {
+    if (days < 10){
+        cout << days << "  ";
+    }
+    else{
+    cout << days << " ";
+    }
+    if (days % 7 == 0){
+        cout << endl;
+    }
+    }
+    }
+    else{
+    int dsem;
+    int espacios;
+    if(n == 2){
+        cout << "   1  2  3  4  5  6" << endl;
+        espacios = 7;
+    }
+    else if(n == 3){
+        cout << "      1  2  3  4  5" << endl;
+        espacios = 6;
+    }
+    else if(n == 4){
+        cout << "         1  2  3  4" << endl;
+        espacios = 5;
+    }
+    else if(n == 5){
+        cout << "            1  2  3" << endl;
+        espacios = 4;
+    }
+    else if(n == 6){
+        cout << "               1  2" << endl;
+        espacios = 3;
+    }
+    else if(n == 7){
+        cout << "                  1" << endl;
+        espacios = 2;
+    }
+    for (int days = espacios; days <= k; ++days) {
+    dsem ++;
+    if (days < 10){
+    cout << days << "  ";
+    }
+    else{
+    cout << days << " ";
+    }
+    if (dsem == 7){
+        cout << endl;
+        dsem = 0;
+    }
+    }
+    }
+}
 }
 
 int exercise_6(int n) {
