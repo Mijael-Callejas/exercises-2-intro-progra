@@ -122,6 +122,7 @@ void exercise_5(int n, int k) {
         dsem = 0;
     }
     }
+    cout << endl;
     }
 }
 
