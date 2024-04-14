@@ -77,7 +77,7 @@ void exercise_5(int n, int k) {
     cout << days << " ";
     }
     if (days % 7 == 0){
-        cout << " " << endl;
+        cout << endl;
     }
     }
     }
@@ -117,7 +117,7 @@ void exercise_5(int n, int k) {
     cout << days << " ";
     }
     if (dsem == 7){
-        cout << " " << endl;
+        cout << endl;
         dsem = 0;
     }
     }
